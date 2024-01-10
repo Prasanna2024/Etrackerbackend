@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #4c62e4;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .nav-list li:hover {
+    text-decoration: underline;
+  }
+  
+
+  .links
+  {
+    text-decoration: none;
+    color: white;
+  }
+
+  .log
+  {
+    height: 50px;
+  }
+
+
+  @media (max-width:500px) {
+    .log{
+        height: 25px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    
+  }

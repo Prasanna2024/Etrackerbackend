@@ -1,0 +1,50 @@
+.expense_input 
+{
+    display:flex;
+    width: 100%;
+    height: 10vh;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input_fields
+{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.input_segment
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1%;
+}
+
+@media (max-width: 800px) {
+        .expense_input{
+       display: grid;
+       grid-auto-flow: row;
+       height: auto;
+        }
+        .input_fields{
+            width: 100%;
+            flex-direction: column;
+            height: auto;
+            padding: 1%;
+        }
+        .input_segment
+        {
+            width: 90%;
+            flex-direction: column;
+            gap: 10px;
+            padding-left: 0;
+            
+        }
+  }
+
